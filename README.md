@@ -4,10 +4,10 @@ This is a simple web tool that converts English numbers (integers) into Roman nu
 
 ## Features
 
-- Converts integers between 1 and 3999 into Roman numerals.
+- Converts integers into Roman numerals.
 - Lightweight and easy to use.
 - Responsive web interface.
-- Built with HTML, CSS, and vanilla JavaScript.
+- Built with HTML, CSS, and JavaScript.
 
 ## Demo Video
 
