@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Assests/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <script src="Assests/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script> 
+</head>
+
+<title>Roman Translator</title>
+
+<style>
+    .inpProp {
+        width: 8cm;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        color: red;
+        font-weight: bold;
+        background: transparent;
+    }
+
+    .bor {
+        border: 2px solid black;
+    }
+
+    .error{
+        display: none;
+        color: red; font-weight: bold;
+        text-align: center;
+    }
+
+    .result{
+        color: green;
+        font-size: 20px;
+        /* display: none  ; */
+    }
+</style>
+
+<body>
+
+    <div class="col-md-6 offset-md-3 mt-4 p-3 bor">
+        <h1 style="text-align: center;">English to Roman Numerals</h1>
+        <br><br>
+        <label style="font-size: 20px;">Enter the number : </label> &nbsp;
+        <p id="error" class="error"></p>
+        <input type="number" id="inp" placeholder="Don't insert special characters" min="0" max="" class="inpProp">
+        <button id="convert" style="float: right;" class="m-1 btn btn-success">Convert</button>
+        <p id="error2" class="error"></p>
+        <br><br>
+
+        <div>
+            <label id="givenNo" class="result"></label>
+            <label id="convertedNo" class="result" style="font-weight: bold;"> </label>
+        </div>
+    </div>
+
+    <script src="Assests/JQuery3.7.0/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="countRoman.js"></script>
+
+</body>
+
+
+</html>
